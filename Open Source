@@ -1,4 +1,4 @@
-_G.StatusSS = true
+_G.StatusSS = false
 
 
 if _G.StatusSS == true then
@@ -906,6 +906,6 @@ Title = "Script Status: close in 30s",
 --Text = "Last Update 24/05/2024 - (brazil) - script Version: 0.2.9 - antiban = Dont talk on chat and no ban :D",
 --Text = "Script Remake: Config Script, Powerups, Ect...",
 Duration = 10,
-Text = "Status: Down",
+Text = "Status: Down (UPDATE)",
 })
    end
