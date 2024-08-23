@@ -1,9 +1,9 @@
-_G.StatusSS = false
+_G.StatusSS = true
 
 
 if _G.StatusSS == true then
 game.StarterGui:SetCore("SendNotification", {
-Title = "Z-A / Zombie Attack - .gg/hdzABPrPjb",
+Title = "Z-A / Zombie Attack .gg/dPb8GzFnGZ",
 Text = "Script Made By 2xyyy discord suport: Mobile, Solara, Wave, Krampus(Down) - pls join discord server msg close in 60s",
 Duration = 60,
 })
@@ -309,7 +309,7 @@ end)
 
 HDVBFD:CreateButton("Credits (Click)", function()
 game.StarterGui:SetCore("SendNotification", {
-Title = "Made By 2xyyy Discord or .gg/hdzABPrPjb",
+Title = "Made By 2xyyy (DC) .gg/dPb8GzFnGZ",
 Text = "Want help scripting? if you have any function like auto buy guns or others call me on discord pls join close in 25s - Suport: Solara, Mobile, Krampus",
 Duration = 25,
 })
@@ -331,7 +331,7 @@ Title = "Script Status: Online",
 --Text = "Last Update 24/05/2024 - (brazil) - script Version: 0.2.9 - antiban = Dont talk on chat and no ban :D",
 --Text = "Script Remake: Config Script, Powerups, Ect...",
 Duration = 5,
-Text = "Last Update 12/07/2024 Script - (brazil) - script Version: 0.3.1 Remake: Config Script, Powerups, Ect...",
+Text = "Last Update 23/08/2024 Script - (brazil) - script Version: 0.3.1 Remake: Config Script, Powerups, Ect...",
 })
 end)
 
@@ -906,6 +906,6 @@ Title = "Script Status: close in 30s",
 --Text = "Last Update 24/05/2024 - (brazil) - script Version: 0.2.9 - antiban = Dont talk on chat and no ban :D",
 --Text = "Script Remake: Config Script, Powerups, Ect...",
 Duration = 10,
-Text = "Status: Down (UPDATE)",
+Text = "Status: Online (Backup) .gg/dPb8GzFnGZ",
 })
    end
