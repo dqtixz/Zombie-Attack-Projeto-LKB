@@ -3,7 +3,7 @@ _G.StatusSS = true
 
 if _G.StatusSS == true then
 game.StarterGui:SetCore("SendNotification", {
-Title = "Z-A / Zombie Attack .gg/dPb8GzFnGZ",
+Title = ".gg/dPb8GzFnGZ",
 Text = "Script Made By 2xyyy discord suport: Mobile, Solara, Wave, Krampus(Down) - pls join discord server msg close in 60s",
 Duration = 60,
 })
