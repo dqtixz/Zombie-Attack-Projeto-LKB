@@ -331,7 +331,7 @@ Title = "Script Status: Online",
 --Text = "Last Update 24/05/2024 - (brazil) - script Version: 0.2.9 - antiban = Dont talk on chat and no ban :D",
 --Text = "Script Remake: Config Script, Powerups, Ect...",
 Duration = 5,
-Text = "Last Update 23/08/2024 Script - (brazil) - script Version: 0.3.1 Remake: Config Script, Powerups, Ect...",
+Text = "Last Update 25/08/2024 Script - (brazil) - script Version: 0.3.1 Remake: Config Script, Powerups, Ect...",
 })
 end)
 
