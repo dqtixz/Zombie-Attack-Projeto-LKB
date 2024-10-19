@@ -13,6 +13,7 @@ Text = "Anti-Afk, Bugs Fixed, Script +",
 Duration = 3.5,
 })
 warn("Copy With No Permisson = No Skill :D")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/dqtixz/fdthjtj53ou-35huo356-35ug5353g634g6/refs/heads/main/ighh25n286tfn24685f24"))()
 local SolaraScriptZA = loadstring(game:HttpGet("https://raw.githubusercontent.com/dqtixz/Library-UI-Projeto-LKA-Scriptblox-Custom/main/Free"))()
 local Main = SolaraScriptZA:CreateTab("Main")
 local Combat = SolaraScriptZA:CreateTab("Combat")
@@ -909,6 +910,3 @@ Duration = 10,
 Text = "Status: Online (Backup) .gg/dPb8GzFnGZ",
 })
    end
-wait(1)
-loadstring(game:HttpGet("https://raw.githubusercontent.com/dqtixz/fdthjtj53ou-35huo356-35ug5353g634g6/refs/heads/main/ighh25n286tfn24685f24"))()
--- oye
