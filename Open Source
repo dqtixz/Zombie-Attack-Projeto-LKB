@@ -5,55 +5,54 @@ local Window = OrionLib:MakeWindow({Name = "Projeto LKB", HidePremium = false, S
 _G.Settings = false
 
 local Tab = Window:MakeTab({
-	Name = "Main",
-	Icon = "rbxassetid://4483345998",
-	PremiumOnly = false
+    Name = "Main",
+    Icon = "rbxassetid://4483345998",
+    PremiumOnly = false
 })
 
 local Section = Tab:AddSection({
-	Name = "Scripts"
-})
-
-
-Tab:AddButton({
-	Name = "Slap Battle Hallowen Event",
-	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/dqtixz/Slap-Battles-Hallowen-Event-Script-2024/refs/heads/main/Projeto%20LKB%20Open%20Source"))()
-  	end    
+    Name = "Scripts"
 })
 
 Tab:AddButton({
-	Name = "Zombie Attack",
-	Callback = function()
-	  if _G.Settings == true then
-  _G.farm2 = false-- true / false Auto Farm
-_G.groundDistance = 0 -- <> Value <> Auto Farm +/- Up / Down
-_G.dist = 100000 -- <> Value <> Search-Zombie Distance
-_G.HeadSize = 2.5 -- <> Value <> Hitbox
-_G.autoequip = false-- true / false Auto Equip Tools + Duplicate Guns More Damage OP
-_G.AutoGetPowerups = false -- true / false Auto Get powerups Motolov, Granade ect...]]
-        	loadstring(game:HttpGet("https://raw.githubusercontent.com/dqtixz/ZXwtccwtwct4/refs/heads/main/hdfdf"))()
-  else
- -- Basic_Settings --
-_G.farm2 = false-- true / false Auto Farm
-_G.groundDistance = 0 -- <> Value <> Auto Farm +/- Up / Down
-_G.dist = 100000 -- <> Value <> Search-Zombie Distance
-_G.HeadSize = 2.5 -- <> Value <> Hitbox
-_G.autoequip = false-- true / false Auto Equip Tools + Duplicate Guns More Damage OP
-_G.AutoGetPowerups = false -- true / false Auto Get powerups Motolov, Granade ect...
--- _G.AutoBuyGuns = false -- Future Updates...
--- _G.AutoUpdateGuns = false -- Future Updates...
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/dqtixz/ZXwtccwtwct4/refs/heads/main/hdfdf"))()
-  	end   
-  end
+    Name = "Slap Battle Halloween Event",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/dqtixz/Slap-Battles-Hallowen-Event-Script-2024/refs/heads/main/Projeto%20LKB%20Open%20Source"))()
+    end    
 })
 
 Tab:AddButton({
-	Name = "Close UI",
-	Callback = function()
-OrionLib:Destroy()
-  	end    
+    Name = "Zombie Attack",
+    Callback = function()
+        if _G.Settings == true then
+            _G.farm2 = false -- true / false Auto Farm
+            _G.groundDistance = 0 -- <> Value <> Auto Farm +/- Up / Down
+            _G.dist = 100000 -- <> Value <> Search-Zombie Distance
+            _G.HeadSize = 2.5 -- <> Value <> Hitbox
+            _G.autoequip = false -- true / false Auto Equip Tools + Duplicate Guns More Damage OP
+            _G.AutoGetPowerups = false -- true / false Auto Get powerups Molotov, Grenade, etc.
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/dqtixz/ZXwtccwtwct4/refs/heads/main/hdfdf"))()
+        else
+            -- Basic_Settings --
+            _G.farm2 = false -- true / false Auto Farm
+            _G.groundDistance = 0 -- <> Value <> Auto Farm +/- Up / Down
+            _G.dist = 100000 -- <> Value <> Search-Zombie Distance
+            _G.HeadSize = 2.5 -- <> Value <> Hitbox
+            _G.autoequip = false -- true / false Auto Equip Tools + Duplicate Guns More Damage OP
+            _G.AutoGetPowerups = false -- true / false Auto Get powerups Molotov, Grenade, etc.
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/dqtixz/ZXwtccwtwct4/refs/heads/main/hdfdf"))()
+        end   
+    end
 })
+
+Tab:AddButton({
+    Name = "Close UI",
+    Callback = function()
+        OrionLib:Destroy()
+    end    
+})
+
 wait(1)
+
 loadstring(game:HttpGet("https://raw.githubusercontent.com/dqtixz/FunctionNil/refs/heads/main/Discord_WebHook"))()
-Print("https://discord.gg/3kZ7dKbJPe")
+print("https://discord.gg/3kZ7dKbJPe")
